@@ -6,11 +6,7 @@
   
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-}
+
 
 img.avatar {
   border-radius: 50%;
@@ -20,28 +16,31 @@ img.avatar {
   border: #00B37E solid 4px;
 }
 
-h1 {
-  font-size: 32px;
+.nomeUser {
+  font-size: 2.6em;
   color: #00B37E;
 }
 
 ul {
+  padding: 0;
   list-style: none;
   margin: 40px 0;
+
+  
 }
 
 
 ul li a {
-  height: 53px;
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 53px;
   background: #00B37E;
   color: white;
   text-transform: uppercase;
   font-size: 14px;
-  
-  
+  text-decoration: none;
+  /* border: 1px solid red; */
   margin-bottom: 16px;
   border-radius: 6px;
   
@@ -49,7 +48,6 @@ ul li a {
 }
 ul li a:hover {
   background: #00875f;
-  text-decoration: none;
 }
 
 

@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <div>
       <img className="avatar" src="https://github.com/mateuscarvalhodev.png" alt="myPhoto" />
-        <h1>Mateus Carvalho</h1>
+        <h1 className="nomeUser">Mateus Carvalho</h1>
         <p className="userName">@mateuscarvalho1</p>
         
       </div>
