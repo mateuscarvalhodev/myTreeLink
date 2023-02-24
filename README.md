@@ -1,12 +1,27 @@
-<h1>Árvore de Links Simples</h1>
-Este é um projeto de árvore de links simples que apresenta links hierarquicamente organizados em uma estrutura de árvore. Cada nó na árvore representa um link, e os nós podem ter filhos que são sublinks relacionados.
+<h1 align="center">ThreeLink feat com Yarn e Vite</h1>
+Este é um projeto simples ThreeLink feat criado utilizando o Yarn como gerenciador de pacotes e o Vite como ferramenta de compilação.
 
-<h2>Como utilizar</h2>
-Para utilizar esta árvore de links simples, basta abrir o arquivo index.html em um navegador web. A árvore de links será exibida na página principal.
+Instalação
+Antes de começar, você precisa ter o Node.js e o Yarn instalados em sua máquina.
 
-Para navegar pela árvore, basta clicar nos nós para expandir ou recolher seus sublinks. Os nós sem filhos representam links externos, que direcionam para outras páginas web quando clicados.
+Clone este repositório utilizando git clone https://github.com/mateuscarvalhodev/myTreeLink.git ou faça o download do arquivo ZIP.
 
-<h2>Observações</h2>
-Esta árvore de links simples é apenas uma demonstração e não possui recursos avançados, como edição interativa ou suporte a drag-and-drop. Ela foi projetada para ser simples e fácil de entender, sem muitos recursos adicionais.
+Navegue até o diretório do projeto e instale as dependências utilizando o seguinte comando:
+### yarn
 
-Além disso, a árvore de links simples não possui recursos de segurança avançados, portanto, recomenda-se utilizar outras ferramentas de gerenciamento de links para armazenar informações confidenciais.
+Uso
+Para iniciar o servidor de desenvolvimento, execute o seguinte comando:
+
+### yarn dev
+
+Isso iniciará o servidor em http://localhost:3000. Você pode abrir esta URL em seu navegador para ver o ThreeLink feat em ação.
+
+Para compilar o projeto para produção, execute o seguinte comando:
+
+### yarn build
+
+Isso gerará um diretório dist com os arquivos prontos para produção.
+
+<h3>Contribuindo</h3>
+Contribuições são bem-vindas! Sinta-se à vontade para enviar um Pull Request.
+
